@@ -1,0 +1,4 @@
+Variable Names dont start with keyword
+Variable Names dont start with number
+Variable Names cant contain spaces.
+Variable Names can have $,_, and numbers

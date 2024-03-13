@@ -1,0 +1,15 @@
+body{
+    margin:0px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-size: 44px;
+}
+.container
+{
+    transition: 0.9s ease-out;
+}
