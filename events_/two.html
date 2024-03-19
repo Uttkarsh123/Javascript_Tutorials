@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai or Code | Async </title>
+</head>
+<body>
+    <h1>Chai or Code</h1>
+    <button id="stop">Stop</button>
+    
+</body>
+<script>
+const sayHitesh = function(){
+    console.log("Hitesh");
+}
+const changeText =()=>{
+    document.querySelector('h1').innerHTML="Best JS Series"
+}
+//Take Two second time and execute the function
+setTimeout(sayHitesh,2000)
+const chnageMe = setTimeout(changeText,2000)
+
+const btn = document.querySelector("#stop")
+btn.addEventListener("click",()=>{
+    console.log("Stopped");
+    clearTimeout(chnageMe);
+})
+clearTimeout(chnageMe);
+//GIve interval and it will be done for at regular intervals
+</script>
+</html>
